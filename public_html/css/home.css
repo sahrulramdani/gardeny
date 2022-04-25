@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vh;
+  height: 100vh;
+  background-image: url('../img/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  text-align: center;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.button-1 {
+  margin-top: 20px;
+}
+
+.btn-pengelola {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #0071fa;
+  box-shadow: 0 5px 28px rgba(0, 24, 157, 0.56);
+}
+.btn-pengelola:hover {
+  background: #003ba8;
+  color: #fff;
+  box-shadow: 0 5px 28px rgba(0, 24, 157, 0.56);
+}
+
+.btn-learning {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #16df7e;
+  box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
+}
+.btn-learning:hover {
+  background: #009537;
+  color: #fff;
+  box-shadow: 0 8px 28px rgba(0, 116, 27, 0.504);
+}
+
+@media screen and (max-width:400px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100vh;
+        height: 100vh;
+        background-image: url('../img/bg1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
